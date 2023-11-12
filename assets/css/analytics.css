@@ -1,0 +1,19 @@
+.container {
+  margin-left: 300px;
+  margin-top: 2rem;
+
+  width: 110rem;
+}
+
+@media (max-width: 768px) {
+  .container {
+    margin-left: 0;
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .btn {
+    margin: 2px;
+
+    font-size: 15px;
+  }
+}

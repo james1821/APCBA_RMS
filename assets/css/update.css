@@ -1,0 +1,131 @@
+body{
+   
+   }
+   .row-button{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   }
+   
+   .container {
+    
+     margin-bottom: 20px;;
+     margin-left: 250px;
+  
+   }
+   
+   .tab2{
+   width: 60rem;
+   }
+   .centered-text {
+     text-align: center;
+     font-weight: 600;
+     
+   }
+   img{
+     height: auto;
+     width: 100px;
+   }
+   .h2{
+     text-align: center;
+     margin-top: 25px;
+     margin-left: -50px;
+     font-size: 35px;
+   }
+   
+   
+   .tab{
+    margin-left: -10rem;
+   }
+   .smol{ 
+   
+     font-weight: bold;
+     width: fit-content;
+   }
+   
+   .table2 {
+    
+     width: 22rem;
+     flex: 1; /* set width of right column */
+     background-color: #fff;
+     border-collapse: collapse;
+     border-style: inset; /* add beveled border */
+     border-width: 5px;
+   }
+   .table1 th{
+     width: 200px;
+   }
+   .table1 th,
+   .table1 td,
+   .table2 th,
+   .table2 td {
+     padding: 0.75rem;
+    
+     vertical-align: top;
+     border-top: 1px solid #dee2e6;
+   }
+   
+   .table1 th {
+     text-align: center;
+   }
+   
+   .table1 td {
+     text-align: left;
+   }
+   
+   .table2 th {
+     text-align: center;
+   }
+   
+   .table2 td {
+     text-align: left;
+   }
+   .archive{
+     margin-left:2rem;
+     
+   }
+   
+   .btn {
+    
+     font-size: smaller;
+   }
+   .upload-btn{
+     height:35px;
+   }
+   
+   .row {
+    margin-top: 0;
+    
+  }
+  
+  .tab {
+    width: 100%;
+    /* Adjust the padding and margin as per your requirement */
+    padding: 2rem;
+    
+    margin: 0 auto;
+  }
+
+  .fixed-width-select {
+    margin-left: -20px;
+    font-size: 12px;
+    width: 300px;
+  }
+  @media only screen and (max-width:768px) {
+
+   
+
+    .container {
+    
+      margin-top: 1rem;
+      width: 100%;
+     
+       margin-left: 0;
+ 
+  
+     }
+   
+    
+   }
+   
+   

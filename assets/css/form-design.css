@@ -1,0 +1,211 @@
+
+
+/*------ Start area defult css -----*/
+.forgot{
+    text-align: center;
+   
+    margin-top: 10px;
+}
+.area .form-area{
+    position: relative;
+    background: rgba(33,142,249,0.7);
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    box-shadow: 0 0 40px 0 #e1e1e1;
+	border-radius: 12px;
+}
+.area .form-area .form-content,
+.area .form-area .form-input{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+}
+.area .form-area .form-content{
+    width: 50%;
+    padding: 40px 25px;
+}
+.area .form-area .form-content h2{
+    color: #fff;
+}
+.area .form-area .form-content p{
+    color: #fff;
+}
+.area .form-area .form-content ul{
+    margin-top: 30px;
+}
+.area .form-area .form-content ul li{
+    display: inline-block;
+    margin-right: 6px;
+}
+.area .form-area .form-content a i{
+    margin-right: 6px;
+}
+
+.area .form-area .form-input{
+    width: 50%;
+    background: #fff;
+    padding: 40px 30px;
+}
+.area .form-area .form-input h2{
+    margin-bottom: 20px;
+    color: rgba(45,135,215);
+}
+.area .form-area .form-input input{
+    position: relative;
+    height: 60px;
+    padding: 20px 0;
+}
+.area .form-area .form-input textarea{
+    height: 120px;
+    padding: 20px 0;
+}
+.area .form-area .form-input input,
+.area .form-area .form-input textarea{
+    
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid #e1e1e1;
+    color: rgba(45,135,215);
+}
+.area .form-area .form-input form .form-group{
+    position: relative;
+}
+.area .form-area .form-input form .form-group label{
+    position: absolute;
+   
+    top: 20px;
+    left: 0;
+    pointer-events: none;
+    font-size: 14px;
+    color: #595959;
+    margin-bottom: 0;
+    transition: all .6s;
+}
+.area .form-area .form-input input:focus ~ label,
+.area .form-area .form-input textarea:focus ~ label,
+.area .form-area .form-input input:valid ~ label,
+.area .form-area .form-input textarea:valid ~ label{
+    top: -5px;
+    left: 0;
+    font-size: 14px;
+    color: rgba(15, 43, 68);
+    font-weight: normal;
+}
+.area .form-area .form-input input:focus,
+.area .form-area .form-input textarea:focus,
+.area .form-area .form-input input:valid,
+.area .form-area .form-input textarea:valid{
+    border-bottom: 2px solid rgba(45,135,215);
+}
+.area .form-area .form-text{
+    margin-top: 10px;
+}
+.area .form-area .form-text span a{
+    color: rgba(103,58,183);
+}
+.area .form-area .button{
+    margin-top: 30px;
+}
+.area .form-area .button .btn{
+    
+    height: 50px;
+    font-size: 17px;
+    background: rgba(45,135,215);
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+	padding:0 30px;
+}
+.btn{
+height: 50px;
+text-align: center;
+margin-top: 20px;
+font-size: 17px;
+background: rgba(45,135,215);
+border: none;
+border-radius: 30px;
+color: #fff;
+cursor: pointer;
+-webkit-transition: all .5s;
+-o-transition: all .5s;
+transition: all .5s;
+padding:0 30px;}
+.area .form-area .button .btn:hover{
+    background: rgb(14, 67, 114);
+}
+/*------------------------
+    End area default css
+----------------------------*/
+
+
+
+
+
+/*------ Responsive css  ------*/
+
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    .area .checkout-form {
+        height: 793px;
+    }
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .area .form-area{
+        overflow: visible;
+        height: 100%;
+    }
+    .area .form-area .form-content,
+    .area .form-area .form-input{
+        height: fit-content;
+        float: none;
+    }
+    .area .form-area .form-input {
+        width: 100%;
+        height: fit-content;
+    }
+    .area .form-area .form-content {
+        width: 100%;
+     
+    }
+   
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+   
+    .area .form-area .form-content,
+    .area .form-area .form-input{
+        float: none;
+    }
+    .area .form-area .form-content {
+        width: 100%;
+        height: fit-content;
+        flex: auto;
+        flex-direction: column;
+        }
+    .area .form-area .form-content ul {
+        margin-top: 20px;
+    }
+    .area .form-area .form-input {
+        width: 100%;
+       
+    }
+    
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+}
+/*---------------------------------------
+    End Responsive css
+---------------------------------------

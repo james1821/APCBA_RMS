@@ -1,0 +1,110 @@
+/*-------------------------------------
+Template Name: A2ZWebhelp 
+Template URI: https://www.a2zwebhelp.com
+Version: 2.0
+---------------------------------------
+
+/*---------------------------------------
+    Default CSS
+---------------------------------------*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,600");
+* {
+  margin: 0;
+  padding: 0;
+}
+.wrapper a {
+  text-decoration: none;
+}
+.wrapper a:hover,
+.wrapper a:focus {
+  text-decoration: none;
+}
+.wrapper ul {
+  margin-bottom: 0;
+}
+.wrapper li {
+  list-style: none;
+}
+.wrapper h1,
+.wrapper h2,
+.wrapper h3,
+.wrapper h4,
+.wrapper h5,
+.wrapper h6 {
+  margin: 10px 0;
+}
+.wrapper p {
+  margin: 0;
+}
+.wrapper input {
+  height: 50px;
+}
+.wrapper input::placeholder {
+}
+.wrapper select {
+  border: 1px solid #ccc;
+  width: 100%;
+  border-radius: 5px;
+  background: #fff;
+  padding: 10px;
+  height: 50px;
+}
+.wrapper {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: black;
+
+  background: url(../img/bgc.jpg) top center;
+
+  overflow-x: hidden;
+}
+.wrapper .form-group {
+  position: relative;
+  margin-bottom: 20px;
+}
+.wrapper .form-check-input {
+  margin-top: -0.7rem;
+}
+.area {
+  overflow: hidden;
+}
+.area {
+  padding: 60px 0;
+}
+
+.area {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.error {
+  color: #ff0000;
+}
+/*---------------------------------------
+    Responsive css
+---------------------------------------*/
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler-icon i {
+    padding-top: 5px;
+    color: #fff;
+  }
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) {
+  .navbar-toggler-icon i {
+    padding-top: 5px;
+    color: #fff;
+  }
+  .a2z-menu .navbar-brand {
+    padding: 10px 15px;
+  }
+  .a2z-menu .nav-item .nav-link {
+    padding: 10px 20px;
+  }
+}
